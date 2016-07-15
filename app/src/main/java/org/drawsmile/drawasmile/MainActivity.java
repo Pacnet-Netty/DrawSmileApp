@@ -140,18 +140,20 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "Food";
                 case 1:
-                    return "SECTION 2";
+                    return "Community Gardens";
                 case 2:
-                    return "SECTION 3";
+                    return "Volunteer";
+                case 3:
+                    return "Contact Us";
             }
             return null;
         }
